@@ -1,0 +1,81 @@
+canvas{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+main{
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  margin: 0px auto;
+  width: 200vw;
+  width: 100%;
+  padding: 120px 0px;
+  z-index: 99;
+}
+header{
+  background-color: black ;
+  grid-column: 2 / span 7;
+  margin-bottom: var(--spacing);
+  margin: 100px;
+  padding: 50px;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+li{
+  font-family: 'Stick No Bills', sans-serif;
+  color: white;
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+.first a{
+text-decoration: none;
+color: #fff;
+font-family: 'Stick No Bills', sans-serif;
+letter-spacing: 3px;
+}
+ul a{
+  text-decoration: none;
+color: #fff;
+font-family: 'Stick No Bills', sans-serif;
+}
+h1, h2, h3, blockquote{
+  font-family: 'Stick No Bills', sans-serif;
+  color: #ff1dce;
+ 
+}
+.first {
+  background-color: black ;
+  grid-column: 2/8;
+  padding: 1rem;
+  margin-bottom: var(--spacing);
+  padding: 50px;
+  margin: 50px;
+  font-family: 'Stick No Bills', sans-serif;
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: white;
+}
+
+.second{
+  background-color: black ;
+  grid-column: 2/span 5;
+  margin: 50px;
+  padding: 50px;
+  margin-bottom: var(--spacing);
+  font-family: 'Stick No Bills', sans-serif;
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: white;
+}
+
+blockquote{
+  grid-column: 2 /span 9;
+  margin-bottom: var(--spacing);
+  background-color: black ;
+  padding: 50px;
+  margin: 30px;
+  font-family: 'Stick No Bills', sans-serif;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
